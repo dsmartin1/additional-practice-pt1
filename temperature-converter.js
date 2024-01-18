@@ -12,3 +12,5 @@ function temperatureConverter() {
     let todaysForecast = `The current temperature outside is ${tempFarenheit} degrees Fahrenheit, ${tempCelsius} degrees Celcius, and ${tempKelvin} degrees Kelvin.`;
     console.log(todaysForecast);
 }
+
+temperatureConverter();
